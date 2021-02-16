@@ -1,0 +1,16 @@
+{
+  "name": "maxoio",
+  "version": "1.0.0",
+  "description": "maxoio description",
+  "main": "index.js",
+  "repository": "git@github.com:gennpix/maxoio.git",
+  "author": "xin <gennpix@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-alpha.24"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
