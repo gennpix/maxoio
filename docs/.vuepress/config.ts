@@ -200,20 +200,20 @@ const config: UserConfig<DefaultThemeOptions> = {
     },
   },
 
-  plugins: [
-    ['@vuepress/plugin-pwa'],
-    [
-      '@vuepress/plugin-pwa-popup',
-      {
-        locales: {
-          '/': {
-            message: '发现新内容可用',
-            buttonText: '刷新',
-          },
-        },
-      },
-    ],
-  ],
+  // plugins: [
+  //   ['@vuepress/plugin-pwa'],
+  //   [
+  //     '@vuepress/plugin-pwa-popup',
+  //     {
+  //       locales: {
+  //         '/': {
+  //           message: '发现新内容可用',
+  //           buttonText: '刷新',
+  //         },
+  //       },
+  //     },
+  //   ],
+  // ],
 }
 
 export = config
