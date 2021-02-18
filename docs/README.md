@@ -1,8 +1,8 @@
 ---
 home: true
-title: Home
+title: Your life is up to you
 # heroImage: /images/hero.png
-heroText: 'maxoio'
+heroText: 'MAXOIO'
 # actions:
 #   - text: Get Started
 #     link: /guide/getting-started.html
@@ -20,9 +20,10 @@ heroText: 'maxoio'
 footer: MIT Licensed | Copyright © 2021-present maxoio.com
 ---
 
-## 起源
-- 记住所学，归纳、整理是个好办法
-- 快速查询曾经的解决方案
+## origin
+- It's a good way to remember what you've learned
+- Quick query of past solutions
+- Turning knowledge into treasure
 
 
 <!-- ### As Easy as 1, 2, 3
