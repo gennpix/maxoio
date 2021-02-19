@@ -5,5 +5,5 @@ curdir=$(
     pwd
 )
 for f in $(find ${curdir}/docs/.vuepress/dist -name "*.html"); do
-    sed "s/src=\"\/assets/src=\"https:\/\/cdn.jsdelivr.net\/gh\/gennpix\/maxoio@gh-pages\/assets/g" $f >tfile && mv tfile $f
+    sed "s/\"\/assets/\"https:\/\/cdn.jsdelivr.net\/gh\/gennpix\/maxoio@gh-pages\/assets/g" $f >tfile && mv tfile $f
 done
